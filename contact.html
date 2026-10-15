@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Get in touch with Daniel Ike-mbah for inquiries, collaborations, or project discussions." />
+    <title>Contact Me - Daniel Ike-mbah Portfolio</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Contact Daniel Ike-mbah</h1>
+      <nav aria-label="Main Navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="./pages/application.html">Application</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Get in Touch</h2>
+        <p>
+          Have an inquiry, project proposal, or collaboration idea? Fill out the
+          form below or email me directly at
+          <a href="mailto:danielike-mbah@gmail.com">danielike-mbah@gmail.com</a
+          >.
+        </p>
+
+        <form action="#" method="post">
+          <fieldset>
+            <legend>Contact Information & Message Details</legend>
+
+            <div>
+              <label for="fullname">Full Name:</label> <br />
+              <input
+                type="text"
+                id="fullname"
+                name="fullname"
+                required
+                minlength="2"
+                placeholder="Jane Doe" />
+            </div>
+
+            <br />
+
+            <div>
+              <label for="email">Email Address:</label> <br />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                placeholder="jane@example.com" />
+            </div>
+
+            <br />
+
+            <div>
+              <label for="phone">Phone Number:</label> <br />
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="+1234567890" />
+            </div>
+
+            <br />
+
+            <div>
+              <label for="inquiry-type">Inquiry Type:</label> <br />
+              <select id="inquiry-type" name="inquiry_type">
+                <option value="freelance">Freelance Project</option>
+                <option value="consulting">Architecture Consulting</option>
+                <option value="speaking">Conference Speaking</option>
+              </select>
+            </div>
+          </fieldset>
+
+          <br />
+
+          <fieldset>
+            <legend>Preferred Contact Method</legend>
+            <div>
+              <input
+                type="radio"
+                id="pref-email"
+                name="contact_method"
+                value="email"
+                checked />
+              <label for="pref-email">Email</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                id="pref-phone"
+                name="contact_method"
+                value="phone" />
+              <label for="pref-phone">Phone</label>
+            </div>
+
+            <div>
+              <input
+                type="checkbox"
+                id="newsletter"
+                name="newsletter"
+                value="subscribed" />
+              <label for="newsletter"
+                >Subscribe to my monthly developer newsletter</label
+              >
+            </div>
+
+            <br />
+
+            <div>
+              <label for="message">Your Message:</label> <br />
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                cols="30"
+                required
+                placeholder="Type your message here..."></textarea>
+            </div>
+
+            <br />
+
+            <div>
+              <button type="submit">Send Message</button>
+            </div>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        &copy; 2026 Daniel Ike-mbah. Return to <a href="./index.html">Home</a>.
+      </p>
+    </footer>
+  </body>
+</html>
